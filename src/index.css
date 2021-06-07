@@ -70,7 +70,7 @@ button {
 }
 
 .showcase {
-  background: url("./images/image-hero.jpg");
+  background: url("./images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -150,4 +150,56 @@ button {
 .creations-mobile .btn:hover {
   background-color: black;
   color: #fff;
+}
+
+/* FOOTER */
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer .logo > img {
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  margin-bottom: 30px;
+}
+
+.footer ul li {
+  margin-bottom: 20px;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social li {
+  margin-bottom: 0;
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.footer .copyright {
+  font-family: "Alata", sans-serif;
+  color: var(--dark-gray);
+  font-size: 15px;
+}
+
+@media (min-width: 1024px) {
+  .showcase {
+    background: url("./images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .showcase .overlay h1 {
+    width: 700px;
+    font-size: 64px;
+    margin-top: 100px;
+  }
 }
